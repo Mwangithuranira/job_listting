@@ -1,3 +1,4 @@
+// my javascript code 
 document.addEventListener('DOMContentLoaded', () => {
     const jobListingsContainer = document.getElementById('job-listings');
     const filterContainer = document.getElementById('filter-container');
