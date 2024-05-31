@@ -113,10 +113,10 @@ h1 {
     color: hsl(228, 45%, 44%);
 }
 
-/* Media Queries */
+/* Media Queries to my code */
 @media (max-width: 1024px) {
     .job-listing {
-        width: 90%;
+        width: 89%;
     }
 }
 
