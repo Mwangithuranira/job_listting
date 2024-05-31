@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const filterContainer = document.getElementById('filter-container');
     const filters = new Set();
 
-    // Fetch data from local data.json file
+    // Fetch data from  my local data.json file
     fetch('./data.json')
         .then(response => response.json())
         .then(data => {
