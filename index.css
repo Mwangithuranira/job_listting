@@ -49,6 +49,10 @@ h1 {
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     position: relative;
 }
+/* .display{
+    display:flex;
+    flex-direction:row;
+} */
 
 .job-header {
     display: flex;
@@ -94,6 +98,8 @@ h1 {
 
 .job-tags {
     display: flex;
+    flex-direction:row;
+
     flex-wrap: wrap;
     margin-top: 10px;
 }
