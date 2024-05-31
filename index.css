@@ -1,0 +1,173 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f0f4f8;
+}
+
+header {
+    background: #5ba4a4;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+#filter-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.filter {
+    background: #eef6f6;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.filter:hover {
+    background: #c8e2e2;
+}
+
+.job-listing {
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    width: 80%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    position: relative;
+}
+
+.job-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.company {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.new, .featured {
+    background: #5ba4a4;
+    color: white;
+    border-radius: 12px;
+    padding: 5px 10px;
+    font-size: 0.8em;
+    margin-right: 10px;
+}
+
+.featured {
+    background: #2c3a3a;
+}
+
+.position {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.job-info {
+    color: gray;
+    font-size: 0.9em;
+}
+
+.job-info span {
+    margin-right: 15px;
+}
+
+.job-tags {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.job-tags span {
+    background: #eef6f6;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.job-tags span:hover {
+    background: #c8e2e2;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+/* Media Queries */
+@media (max-width: 1024px) {
+    .job-listing {
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    .job-listing {
+        width: 95%;
+    }
+
+    .job-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .job-info span {
+        display: block;
+        margin: 5px 0;
+    }
+}
+
+@media (max-width: 600px) {
+    header {
+        padding: 10px;
+    }
+
+    #filter-container {
+        margin-top: 10px;
+    }
+
+    .filter {
+        padding: 5px;
+        margin: 3px;
+    }
+
+    .job-listing {
+        width: 100%;
+        margin: 10px 0;
+        padding: 15px;
+    }
+
+    .position {
+        font-size: 1em;
+    }
+
+    .job-info {
+        font-size: 0.8em;
+    }
+
+    .job-tags span {
+        padding: 3px 5px;
+        margin: 3px;
+    }
+}
+
+  

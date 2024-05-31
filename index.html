@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Job Listings</title>
+  <link rel="stylesheet" href="./index.css">
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Job Listings</h1>
+    <div id="filter-container"></div>
+  </header>
+  <main id="job-listings">
+    <div class="job-listing">
+      <div class="job-header">
+        <span class="company">Photosnap</span>
+        <span class="new">New!</span>
+        <span class="featured">Featured</span>
+      </div>
+      <h2 class="position">Senior Frontend Developer</h2>
+      <div class="job-info">
+        <span class="posted-at">1d ago</span>
+        <span class="contract">Full Time</span>
+        <span class="location">USA only</span>
+      </div>
+      <div class="job-tags">
+        <span class="role">Frontend</span>
+        <span class="level">Senior</span>
+        <span class="language">HTML</span>
+        <span class="language">CSS</span>
+        <span class="language">JavaScript</span>
+      </div>
+    </div>
+    
+    <div class="job-listing">
+      <div class="job-header">
+        <span class="company">Manage</span>
+        <span class="new">New!</span>
+        <span class="featured">Featured</span>
+      </div>
+      <h2 class="position">Fullstack Developer</h2>
+      <div class="job-info">
+        <span class="posted-at">1d ago</span>
+        <span class="contract">Part Time</span>
+        <span class="location">Remote</span>
+      </div>
+      <div class="job-tags">
+        <span class="role">Fullstack</span>
+        <span class="level">Midweight</span>
+        <span class="language">Python</span>
+        <span class="tool">React</span>
+      </div>
+    </div>
+
+    <div class="job-listing">
+      <div class="job-header">
+        <span class="company">Account</span>
+        <span class="new">New!</span>
+      </div>
+      <h2 class="position">Junior Frontend Developer</h2>
+      <div class="job-info">
+        <span class="posted-at">2d ago</span>
+        <span class="contract">Part Time</span>
+        <span class="location">USA only</span>
+      </div>
+      <div class="job-tags">
+        <span class="role">Frontend</span>
+        <span class="level">Junior</span>
+        <span class="language">JavaScript</span>
+        <span class="tool">React</span>
+        <span class="tool">Sass</span>
+      </div>
+    </div>
+
+    <div class="job-listing">
+      <div class="job-header">
+        <span class="company">MyHome</span>
+      </div>
+      <h2 class="position">Junior Frontend Developer</h2>
+      <div class="job-info">
+        <span class="posted-at">5d ago</span>
+        <span class="contract">Contract</span>
+        <span class="location">USA only</span>
+      </div>
+      <div class="job-tags">
+        <span class="role">Frontend</span>
+        <span class="level">Junior</span>
+        <span class="language">CSS</span>
+        <span class="language">JavaScript</span>
+      </div>
+    </div>
+
+    <div class="job-listing">
+      <div class="job-header">
+        <span class="company">Loop Studios</span>
+      </div>
+      <h2 class="position">Software Engineer</h2>
+      <div class="job-info">
+        <span class="posted-at">1w ago</span>
+        <span class="contract">Full Time</span>
+        <span class="location">Worldwide</span>
+      </div>
+      <div class="job-tags">
+        <span class="role">Fullstack</span>
+        <span class="level">Midweight</span>
+        <span class="language">JavaScript</span>
+        <span class="language">Ruby</span>
+        <span class="tool">Sass</span>
+      </div>
+    </div>
+
+    <div class="job-listing">
+      <div class="job-header">
+        <span class="company">FaceIt</span>
+      </div>
+      <h2 class="position">Junior Backend Developer</h2>
+      <div class="job-info">
+        <span class="posted-at">2w ago</span>
+        <span class="contract">Full Time</span>
+        <span class="location">UK only</span>
+      </div>
+      <div class="job-tags">
+        <span class="role">Backend</span>
+        <span class="level">Junior</span>
+        <span class="language">Ruby</span>
+        <span class="tool">RoR</span>
+      </div>
+    </div>
+
+    <div class="job-listing">
+      <div class="job-header">
+        <span class="company">Shortly</span>
+      </div>
+      <h2 class="position">Junior Developer</h2>
+      <div class="job-info">
+        <span class="posted-at">2w ago</span>
+        <span class="contract">Full Time</span>
+        <span class="location">Worldwide</span>
+      </div>
+      <div class="job-tags">
+        <span class="role">Frontend</span>
+        <span class="level">Junior</span>
+        <span class="language">HTML</span>
+        <span class="language">JavaScript</span>
+        <span class="tool">Sass</span>
+      </div>
+    </div>
+
+    <div class="job-listing">
+      <div class="job-header">
+        <span class="company">Insure</span>
+      </div>
+      <h2 class="position">Junior Frontend Developer</h2>
+      <div class="job-info">
+        <span class="posted-at">2w ago</span>
+        <span class="contract">Full Time</span>
+        <span class="location">USA only</span>
+      </div>
+      <div class="job-tags">
+        <span class="role">Frontend</span>
+        <span class="level">Junior</span>
+        <span class="language">JavaScript</span>
+        <span class="tool">Vue</span>
+        <span class="tool">Sass</span>
+      </div>
+    </div>
+
+    <div class="job-listing">
+      <div class="job-header">
+        <span class="company">Eyecam Co.</span>
+      </div>
+      <h2 class="position">Full Stack Engineer</h2>
+      <div class="job-info">
+        <span class="posted-at">3w ago</span>
+        <span class="contract">Full Time</span>
+        <span class="location">Worldwide</span>
+      </div>
+      <div class="job-tags">
+        <span class="role">Fullstack</span>
+        <span class="level">Midweight</span>
+        <span class="language">JavaScript</span>
+        <span class="language">Python</span>
+        <span class="tool">Django</span>
+      </div>
+    </div>
+
+    <div class="job-listing">
+      <div class="job-header">
+        <span class="company">The Air Filter Company</span>
+      </div>
+      <h2 class="position">Front-end Dev</h2>
+      <div class="job-info">
+        <span class="posted-at">1mo ago</span>
+        <span class="contract">Part Time</span>
+        <span class="location">Worldwide</span>
+      </div>
+      <div class="job-tags">
+        <span class="role">Frontend</span>
+        <span class="level">Junior</span>
+        <span class="language">JavaScript</span>
+        <span class="tool">React</span>
+        <span class="tool">Sass</span>
+      </div>
+    </div>
+  </main>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">johnson mwangi</a>.
+  </div>
+  
+  <script src="./index.js"></script>
+</body>
+</html>
