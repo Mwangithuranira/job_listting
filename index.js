@@ -26,6 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
             jobElement.className = 'job-listing';
             jobElement.innerHTML = `
                 <div class="job-header">
+                    <img src="${job.logo}" alt="${job.company} logo" class="company-logo">
                     <span class="company">${job.company}</span>
                     ${job.new ? '<span class="new">New!</span>' : ''}
                     ${job.featured ? '<span class="featured">Featured</span>' : ''}
@@ -40,7 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <span class="role">${job.role}</span>
                     <span class="level">${job.level}</span>
                     ${job.languages.map(lang => `<span class="language">${lang}</span>`).join('')}
-                    ${job.tools ? job.tools.map(tool => `<span class="tool">${tool}</span>`).join('') : ''}
+                    ${job.tools.map(tool => `<span class="tool">${tool}</span>`).join('')}
                 </div>
             `;
             jobListingsContainer.appendChild(jobElement);
